@@ -1,0 +1,40 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: jboss-service
+spec:
+  type: NodePort
+  selector:
+    app: jbosswildfly
+  ports:
+  - name: "8080"
+    port: 8080
+    targetPort: 8080
+    nodePort: 30001  
+  - name: "9990"
+    port: 9990
+    targetPort: 9990
+    nodePort: 30002
+
+---
+apiVersion: apps/v1 
+kind: Deployment
+metadata:
+  name: jbosswildfly
+spec:
+  selector:
+    matchLabels:
+      app: jbosswildfly
+
+  template: 
+    metadata:
+      labels:
+        app: jbosswildfly
+    spec:
+      containers:
+        - image: miya/jboss:1.0
+          name: jbosswildfly
+          ports:
+          - containerPort: 8080
+          - containerPort: 9990
