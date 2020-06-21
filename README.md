@@ -18,6 +18,7 @@
 
 
 ### If you want to terminate pod, please execute end.sh
+Podを終了させたい場合、end.shを実行してください。
 
 ### Configuration
 Please edit Dockerfile if you want to change boot mode.
