@@ -1,18 +1,18 @@
 # jboss-wildfly
 
-## 1. start.sh
+## 1. Execute start.sh
 
 
 ## 2. /opt/jboss/wildfly/bin/add-user.sh in container
 
 
-## 3. access http://localhost:30002 which is admin console
+## 3. Access http://localhost:30002 which is admin console
 
 
-## 4. deploy your application
+## 4. Deploy your application
 
 
-## If you want to terminate pod, please execute end.sh
+### If you want to terminate pod, please execute end.sh
 
 ### Configuration
 Please edit Dockerfile if you want to change boot mode.
