@@ -12,6 +12,8 @@
 ## 4. deploy your application
 
 
+## If you want to terminate pod, please execute end.sh
+
 ### Configuration
 Please edit Dockerfile if you want to change boot mode.
 
@@ -21,5 +23,5 @@ CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0"]
 domain mode:
 CMD ["/opt/jboss/wildfly/bin/domain.sh", "-b", "0.0.0.0", "-bmanagement","0.0.0.0"]
 
-### Sample application example
+### Sample deploy application
 https://github.com/AdamBien/ping
