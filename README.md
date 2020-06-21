@@ -17,11 +17,11 @@
 ### Configuration
 Please edit Dockerfile if you want to change boot mode.
 
-  standalone mode:
-  CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0"]
+    standalone mode:
+    CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0"]
 
-  domain mode:
-  CMD ["/opt/jboss/wildfly/bin/domain.sh", "-b", "0.0.0.0", "-bmanagement","0.0.0.0"]
+    domain mode:
+    CMD ["/opt/jboss/wildfly/bin/domain.sh", "-b", "0.0.0.0", "-bmanagement","0.0.0.0"]
 
 domain.xml
 https://github.com/yumiyaha/jboss-wildfly/blob/master/jboss_docker/domain.xml
