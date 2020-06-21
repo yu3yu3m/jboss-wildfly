@@ -37,6 +37,8 @@ https://github.com/yumiyaha/jboss-wildfly/blob/master/jboss_docker/host.xml
 
 ### Sample deploy application
 https://github.com/AdamBien/ping
+
 If you have your application, please use it.
+
 ご自身のアプリケーションがある場合は、そちらをご使用ください。 
 
