@@ -21,6 +21,7 @@
 
 ### Configuration
 Please edit Dockerfile if you want to change boot mode.
+boot modeを変更したい場合、Dockerfileの以下の記載を切り替えてください。
 
     standalone mode:
     CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0"]
@@ -36,3 +37,6 @@ https://github.com/yumiyaha/jboss-wildfly/blob/master/jboss_docker/host.xml
 
 ### Sample deploy application
 https://github.com/AdamBien/ping
+If you have your application, please use it.
+ご自身のアプリケーションがある場合は、そちらをご使用ください。 
+
