@@ -30,10 +30,10 @@ boot modeを変更したい場合、Dockerfileの以下の記載を切り替え�
     domain mode:
     CMD ["/opt/jboss/wildfly/bin/domain.sh", "-b", "0.0.0.0", "-bmanagement","0.0.0.0"]
 
-domain.xml
+domain.xml <br>
 https://github.com/yumiyaha/jboss-wildfly/blob/master/jboss_docker/domain.xml
-
-host.xml
+<br>
+host.xml <br>
 https://github.com/yumiyaha/jboss-wildfly/blob/master/jboss_docker/host.xml
 
 ### Sample deploy application
