@@ -32,7 +32,7 @@ boot modeを変更したい場合、Dockerfileの以下の記載を切り替え�
 
 domain.xml <br>
 https://github.com/yumiyaha/jboss-wildfly/blob/master/jboss_docker/domain.xml
-<br>
+<br><br>
 host.xml <br>
 https://github.com/yumiyaha/jboss-wildfly/blob/master/jboss_docker/host.xml
 
