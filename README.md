@@ -1,6 +1,6 @@
 # JBoss WildFly
 
-### how to use
+# How to use
 (Japanese) https://www.youtube.com/watch?v=Tir3QR3KYS4
 
 (English)  https://www.youtube.com/watch?v=2nYngYG13ro
