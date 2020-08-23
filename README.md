@@ -1,10 +1,5 @@
 # JBoss WildFly
 
-## How to use
-(Japanese) https://www.youtube.com/watch?v=Tir3QR3KYS4
-
-(English)  https://www.youtube.com/watch?v=2nYngYG13ro
-
 ## 1. Execute start.sh
 
 
@@ -18,11 +13,8 @@
 
 
 ### If you want to terminate pod, please execute end.sh
-Podを終了させたい場合、end.shを実行してください。
 
 ### Configuration
-Please edit Dockerfile if you want to change boot mode.
-boot modeを変更したい場合、Dockerfileの以下の記載を切り替えてください。
 
     standalone mode:
     CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0"]
@@ -40,6 +32,4 @@ https://github.com/yumiyaha/jboss-wildfly/blob/master/jboss_docker/host.xml
 https://github.com/AdamBien/ping
 
 If you have your application, please use it.
-
-ご自身のアプリケーションがある場合は、そちらをご使用ください。 
 
